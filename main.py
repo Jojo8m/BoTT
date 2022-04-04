@@ -1659,7 +1659,7 @@ def redirect_message():
 
 if __name__ == "__main__":
     bot.remove_webhook()
-    bot.set_webhook(url="https://sidrabot.herokuapp.com/"+str(BOT_TOKEN))
+    bot.set_webhook(url="https://new-boto.herokuapp.com/"+str(BOT_TOKEN))
     server.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
     
 bot.polling()
