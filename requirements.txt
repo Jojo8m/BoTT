@@ -1,4 +1,3 @@
-json
 flask
 user_agent
 requests
